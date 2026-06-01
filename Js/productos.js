@@ -1,0 +1,2 @@
+const productos=[{nombre:'Wrap Picante',precio:6.99},{nombre:'Wrap Chill',precio:5.99}];
+document.getElementById('productos').innerHTML=productos.map(p=>`<div><h3>${p.nombre}</h3><p>$${p.precio}</p></div>`).join('');
